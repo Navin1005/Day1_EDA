@@ -1,0 +1,37 @@
+Test	       Use Case	                                                         Example
+Z-Test	          Large samples;                                        compare means or proportions	Test if average sales are higher after a campaign.
+T-Test	          Small samples;                                       compare means	Test if tenure differs between churned and non-churned customers.
+ANOVA	          Compare means of 3+ groups	                            Test if customer acquisition rates differ across channels.
+Chi-Square Test  	Test relationships between categorical variables    	Test if fraud depends on payment method.
+Paired T-Test	Compare means of related groups (e.g., before vs after)	     Test if churn rates decreased after a retention campaign.
+
+Customer Churn Analysis Project
+In this project, I analyzed customer churn data to identify patterns and drivers of churn and developed actionable insights to improve retention. Using hypothesis testing, I validated key assumptions about customer behavior. For instance, I conducted a two-proportion Z-test to confirm that customers on monthly subscription plans exhibited significantly higher churn rates compared to annual plans (
+p<0.0001 (p<0.0001). Additionally, I used a paired T-test to evaluate the impact of a retention campaign, finding a statistically significant reduction in churn rates after implementation (
+p<0.05 (p<0.05). These insights helped prioritize retention strategies and informed feature engineering for a predictive model, which improved churn prediction accuracy by 15%.
+
+Fraud Detection in Financial Transactions
+This project focused on identifying fraudulent transactions in a financial dataset. I applied hypothesis testing to validate relationships between key features and fraud likelihood. For example, using a two-sample T-test, I established that fraudulent transactions had significantly higher average transaction amounts compared to non-fraudulent transactions (
+p
+<
+0.01
+p<0.01). Additionally, a Chi-square test revealed a strong association between payment methods (e.g., credit card vs. debit card) and fraud occurrences (
+p
+<
+0.001
+p<0.001). These findings were instrumental in improving feature selection, leading to the development of a machine learning model with enhanced fraud detection precision, reducing false negatives by 20%.
+
+Customer Segmentation and Marketing Campaign Analysis
+This project involved analyzing customer segmentation data to optimize marketing strategies. Using ANOVA, I tested whether customer acquisition rates differed across three marketing channels (Email, Social Media, and Paid Ads). The analysis showed a statistically significant difference in acquisition rates (
+p
+<
+0.05
+p<0.05), prompting the marketing team to reallocate resources to the most effective channels. Further, exploratory data analysis (EDA) identified demographic trends, which were visualized using Matplotlib and Seaborn for stakeholder presentations. These insights resulted in a 10% improvement in campaign ROI.
+
+Business Insights from Retention Strategies
+In this project, I evaluated the impact of retention strategies using real-world business data. Hypothesis testing was employed to assess the effectiveness of loyalty programs on customer churn. A paired T-test demonstrated a significant reduction in churn rates post-program implementation (
+p
+<
+0.01
+p<0.01). Confidence intervals were constructed to estimate the range of expected churn reductions, providing robust data for decision-making. These results directly contributed to optimizing retention efforts, achieving a 25% reduction in churn.
+
